@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Tiger",
+  "info": {
+    "name": "Tiger"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Age": {
+      "type": "biginteger"
+    },
+    "Weight": {
+      "type": "float"
+    },
+    "Length_": {
+      "type": "float"
+    },
+    "Location": {
+      "type": "enumeration",
+      "enum": [
+        "Algeria",
+        "USA",
+        "UK"
+      ]
+    }
+  }
+}
